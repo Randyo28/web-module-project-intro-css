@@ -4,7 +4,7 @@
 
 html{
     font-family: 'Roboto Mono', monospace; 
-    font-size: 15px;
+    font-size: 20px;
 }
 
 body{
@@ -12,42 +12,67 @@ body{
 }
 
 .nav{
-    margin: 20px auto;
+    margin: 0 auto;
     text-align:center;
 }
 
 a{
     text-decoration: none;
 }
+
+
 .nav .plan{
     background: #FF764E;
     border-radius: 15px;
-    padding: 20px;
+    padding: 10px 40px;
     color: white;
     margin: 0 45px;
+    border:none;
+    font-size:20px;
 }
+
+.nav .plan:focus{
+    outline: none;
+    box-shadow: none;
+}
+
 
 .nav .learn{
     background: #5ED3EB;
     border-radius: 15px;
-    padding: 20px;
+    padding: 10px 40px;
     color: white;
     margin: 0 45px;
+    border:none;
+    font-size:20px;
+}
+
+.nav .learn:focus{
+    outline: none;
+    box-shadow: none;
 }
 
 .nav .get{
     background: #FFCD69;
     border-radius: 15px;
-    padding: 20px;
+    padding: 10px 40px;
     color: white;
     margin: 0 45px;
+    border:none;
+    font-size:20px;
 }
+
+.nav .get:focus{
+    outline: none;
+    box-shadow: none;
+}
+
 .section-1{
     margin-top: 60px;
 }
 .section-1 img{
     border-radius: 50%;
-    height: 200px;
+    height: 275px;
     margin: 36px 0 20px 236px;
 }
 
@@ -83,7 +108,7 @@ a{
     color: white;
     padding: 30px;
     margin-top: -10px;
-    margin-left: 80px;
+    margin-left: 59px;
 }
 
 .about .p-3{
@@ -94,11 +119,6 @@ a{
 .about .p-4{
     margin-bottom: 10px;
     line-height: 1.5;
-}
-
-.section-2{
-    
-    
 }
 
 .section-2 img{
@@ -133,7 +153,11 @@ a{
 }
 
 footer{
-    background:
+    background: #F9E7DC;
+    margin-left: -34px;
+    margin-bottom: -55px;
+    padding-bottom: 20px;
+    width: 100vw;
 }
 
 footer img{
@@ -150,23 +174,47 @@ footer .align{
 footer .plan{
     background: #FF764E;
     border-radius: 15px;
-    padding: 20px;
+    padding: 10px 40px;
     color: white;
     margin: 0 45px;
+    border:none;
+    font-size:20px;
 }
+
+footer .plan:focus{
+    outline: none;
+    box-shadow: none;
+}
+
 
 footer .learn{
     background: #5ED3EB;
     border-radius: 15px;
-    padding: 20px;
+    padding: 10px 40px;
     color: white;
     margin: 0 45px;
+    border:none;
+    font-size:20px;
+}
+
+footer .learn:focus{
+    outline: none;
+    box-shadow: none;
 }
 
 footer .get{
     background: #FFCD69;
     border-radius: 15px;
-    padding: 20px;
+    padding: 10px 40px;
     color: white;
     margin: 0 45px;
+    border:none;
+    font-size:20px;
 }
+
+footer .get:focus{
+    outline: none;
+    box-shadow: none;
+}
+
+/* margin: 0 45px; */
